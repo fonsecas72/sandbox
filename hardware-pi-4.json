@@ -1,0 +1,33 @@
+{
+    "id": "f9f56dff-098a-4c5f-a51c-19ad35de85d4",
+    "metadata": {
+      "facility": {
+        "facility_code": "onprem"
+      },
+      "instance": {},
+      "state": ""
+    },
+    "network": {
+      "interfaces": [
+        {
+          "dhcp": {
+            "arch": "arm64",
+            "ip": {
+              "address": "192.168.1.5",
+              "gateway": "192.168.1.1",
+              "netmask": "255.255.255.0"
+            },
+            "mac": "dc:a6:32:04:0f:66",
+            "hostname": "raspberrypi",
+            "iface_name": "eth0",
+            "uefi": false
+          },
+          "netboot": {
+            "allow_pxe": true,
+            "allow_workflow": true
+          }
+        }
+      ]
+    }
+  }
+  
